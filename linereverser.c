@@ -1,9 +1,9 @@
 #include<stdio.h>
 void reverse()
 {
- if(getchar(c)!='/0')
+ if(getchar()!='/0') 
   return reverse();
- putchar(c);
+ printf("%c",c);
 
 
 }
